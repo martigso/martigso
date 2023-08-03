@@ -15,10 +15,10 @@ political actors – most of the time Norwegian MPs.
 
 [<img
 src="https://github.com/martigso/stortingscrape/blob/master/man/figures/stortingscrape.png?raw=true"
-style="width:15.0%" />](https://github.com/martigso/stortingscrape)
+style="width:1.0%" />](https://github.com/martigso/stortingscrape)
 [<img
 src="https://github.com/martigso/NorSentLex/blob/main/man/figures/norsentlex.png?raw=true"
-style="width:15.0%" />](https://github.com/martigso/NorSentLex)
+style="width:1.0%" />](https://github.com/martigso/NorSentLex)
 
 # Latest publications
 
