@@ -4,3 +4,5 @@
 .Ruserdata
 *.Rproj
 *.qmd
+README.html
+README_files/
