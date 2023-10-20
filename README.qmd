@@ -1,0 +1,59 @@
+---
+format: gfm
+engine: knitr
+---
+# Hi there `r emo::ji("wave")`
+
+I am political scientist working with [R](https://www.r-project.org/)
+and a lot of quantitative text analysis stuff on data produced by
+political actors – most of the time Norwegian MPs.
+
+# Work
+
+`r emo::ji("books")` Postdoctoral Fellow</br> `r emo::ji("office")` @ University of Oslo</br></br>
+
+`r emo::ji("link")` [martigso@github](https://martigso.github.io)</br> `r emo::ji("link")`
+[martigso@uio](https://www.sv.uio.no/isv/english/people/aca/martigso/index.html)
+
+# R-packages
+
+[<img
+src="https://github.com/martigso/stortingscrape/blob/master/man/figures/stortingscrape.png?raw=true"
+width="100" />](https://github.com/martigso/stortingscrape) [<img
+src="https://github.com/martigso/NorSentLex/blob/main/man/figures/norsentlex.png?raw=true"
+width="100" />](https://github.com/martigso/NorSentLex) [<img
+src="https://github.com/martigso/noRc/blob/master/inst/figures/noRc.png?raw=true"
+width="100" />](https://github.com/martigso/noRc)
+
+# Latest publications
+
+```{r}
+#| echo: false
+library(httr2)
+
+pubs <- request("https://api.cristin.no/v2/results?contributor=619119") |> 
+  req_perform()
+
+pubs_df <- resp_body_json(pubs, simplifyVector = TRUE)
+pubs_clean <- data.frame(Title     = ifelse(is.na(pubs_df$title$nb), pubs_df$title$en, pubs_df$title$nb),
+                         Publisher = ifelse(is.na(pubs_df$journal$name) == FALSE, pubs_df$journal$name,
+                                            ifelse(is.na(pubs_df$publisher$name) == FALSE, pubs_df$publisher$name,
+                                                   pubs_df$channel$title)),
+                         Year = pubs_df$year_published,
+                         Authors = sapply(pubs_df$contributors$preview, \(x) paste0(gsub(" G\\.", "", x$first_name), " ", x$surname, collapse = ", ")))
+
+pubs_clean <- pubs_clean[order(pubs_clean$Year, decreasing = TRUE), ]
+
+kableExtra::kable(pubs_clean[1:5, ], 
+                  booktabs = TRUE,
+                  row.names = FALSE)
+
+# DT::datatable(pubs_clean,
+#               rownames = FALSE,
+#               options = list(
+#                 dom = "lt",
+#                 pageLength = 3
+#               ))
+
+```
+
