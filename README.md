@@ -1,4 +1,5 @@
 
+
 # Hi there 👋
 
 I am political scientist working with [R](https://www.r-project.org/)
@@ -24,10 +25,10 @@ width="100" />](https://github.com/martigso/noRc)
 
 # Latest publications
 
-| Title                                                                                                                                | Publisher                              | Year | Authors                                                                                                                 |
-|:-------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|:-----|:------------------------------------------------------------------------------------------------------------------------|
-| Tilstandsanalyse av det norske demokratiet                                                                                           | Kommunal- og distriktsdepartementet    | 2023 | Carl Henrik Knutsen, Sirianne Dahlum, Elin Haugsgjerd Allern, Sara Bjønness Hagfors, Jan Erling Klausen, Martin Søyland |
-| Party Control and Responsiveness: How MPs Use Variation in Lower-Level Institutional Design as an Electoral Responsiveness Mechanism | CEUR Workshop Proceedings              | 2022 | Martin Søyland                                                                                                          |
-| The Politics of Legislative Debates                                                                                                  | Oxford University Press                | 2021 | Martin Søyland, Bjørn Høyland                                                                                           |
-| Climate politics in hard times: How local economic shocks influence MPs attention to climate change                                  | European Journal of Political Research | 2020 | Henning Finseraas, Bjørn Høyland, Martin Søyland                                                                        |
-| Electoral Reform and Parliamentary Debates                                                                                           | Legislative Studies Quarterly          | 2019 | Martin Søyland, Bjørn Høyland                                                                                           |
+| Title | Publisher | Year | Authors |
+|:---|:---|:---|:---|
+| The drama is in the ink:Conflict in written parliamentary questions | Legislative Studies Quarterly | 2024 | Solveig Bjørkholt, Martin Søyland |
+| Tilstandsanalyse av det norske demokratiet | Kommunal- og distriktsdepartementet | 2023 | Carl Henrik Knutsen, Sirianne Dahlum, Elin Haugsgjerd Allern, Sara Bjønness Hagfors, Jan Erling Klausen, Martin Søyland |
+| Party Control and Responsiveness: How MPs Use Variation in Lower-Level Institutional Design as an Electoral Responsiveness Mechanism | CEUR Workshop Proceedings | 2022 | Martin Søyland |
+| The Politics of Legislative Debates | Oxford University Press | 2021 | Martin Søyland, Bjørn Høyland |
+| Climate politics in hard times: How local economic shocks influence MPs attention to climate change | European Journal of Political Research | 2020 | Henning Finseraas, Bjørn Høyland, Martin Søyland |
