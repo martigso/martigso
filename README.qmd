@@ -24,6 +24,7 @@ src="https://github.com/martigso/NorSentLex/blob/main/man/figures/norsentlex.png
 width="100" />](https://github.com/martigso/NorSentLex) [<img
 src="https://github.com/martigso/noRc/blob/master/inst/figures/noRc.png?raw=true"
 width="100" />](https://github.com/martigso/noRc)
+[ToN](https://github.com/ltgoslo/talk-of-norway)
 
 # Latest publications
 
