@@ -36,12 +36,17 @@ pubs <- request("https://api.cristin.no/v2/results?contributor=619119") |>
   req_perform()
 
 pubs_df <- resp_body_json(pubs, simplifyVector = TRUE)
+
 pubs_clean <- data.frame(Title     = ifelse(is.na(pubs_df$title$nb), pubs_df$title$en, pubs_df$title$nb),
+                         Type      = pubs_df$category$name$en,
                          Publisher = ifelse(is.na(pubs_df$journal$name) == FALSE, pubs_df$journal$name,
                                             ifelse(is.na(pubs_df$publisher$name) == FALSE, pubs_df$publisher$name,
                                                    pubs_df$channel$title)),
                          Year = pubs_df$year_published,
                          Authors = sapply(pubs_df$contributors$preview, \(x) paste0(gsub(" G\\.", "", x$first_name), " ", x$surname, collapse = ", ")))
+
+
+pubs_clean <- pubs_clean[which(grepl("[Aa]rticle", pubs_clean$Type)), ]
 
 pubs_clean <- pubs_clean[order(pubs_clean$Year, decreasing = TRUE), ]
 
