@@ -45,6 +45,7 @@ pubs_clean <- data.frame(Title     = ifelse(is.na(pubs_df$title$nb), pubs_df$tit
                          Year = pubs_df$year_published,
                          Authors = sapply(pubs_df$contributors$preview, \(x) paste0(gsub(" G\\.", "", x$first_name), " ", x$surname, collapse = ", ")))
 
+pubs_clean$Publisher[which(grepl("The Politics of Legislative Debates|Legislative Party Groups in the Storting", pubs_clean$Title))] <- "Oxford University Press"
 
 pubs_clean <- pubs_clean[which(grepl("[Aa]rticle", pubs_clean$Type)), ]
 

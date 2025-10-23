@@ -28,8 +28,8 @@ width="100" />](https://github.com/martigso/noRc)
 
 | Title | Type | Publisher | Year | Authors |
 |:---|:---|:---|:---|:---|
-| Legislative Party Groups in the Storting | Academic chapter/article/Conference paper | NA | 2025 | Oda Nedregård, Martin Søyland |
+| Legislative Party Groups in the Storting | Academic chapter/article/Conference paper | Oxford University Press | 2025 | Oda Nedregård, Martin Søyland |
 | The drama is in the ink: Conflict in written parliamentary questions | Academic article | Legislative Studies Quarterly | 2024 | Solveig Bjørkholt, Martin Søyland |
 | Party Control and Responsiveness: How MPs Use Variation in Lower-Level Institutional Design as an Electoral Responsiveness Mechanism | Academic article | CEUR Workshop Proceedings | 2022 | Martin Søyland |
-| The Politics of Legislative Debates | Academic chapter/article/Conference paper | NA | 2021 | Martin Søyland, Bjørn Høyland |
+| The Politics of Legislative Debates | Academic chapter/article/Conference paper | Oxford University Press | 2021 | Martin Søyland, Bjørn Høyland |
 | Climate politics in hard times: How local economic shocks influence MPs attention to climate change | Academic article | European Journal of Political Research | 2020 | Henning Finseraas, Bjørn Høyland, Martin Søyland |
