@@ -8,12 +8,13 @@ I am political scientist working with [R](https://www.r-project.org/)
 and a lot of quantitative text analysis stuff on data produced by
 political actors – most of the time Norwegian MPs.
 
-# Work
+<!-- # Work
 
 `r emo::ji("books")` Postdoctoral Fellow</br> `r emo::ji("office")` @ University of Oslo</br></br>
 
 `r emo::ji("link")` [martigso@github](https://martigso.github.io)</br> `r emo::ji("link")`
 [martigso@uio](https://www.sv.uio.no/isv/english/people/aca/martigso/index.html)
+ -->
 
 # R-packages
 

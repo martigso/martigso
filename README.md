@@ -6,12 +6,11 @@ I am political scientist working with [R](https://www.r-project.org/)
 and a lot of quantitative text analysis stuff on data produced by
 political actors – most of the time Norwegian MPs.
 
-# Work
-
-📚 Postdoctoral Fellow</br> 🏢 @ University of Oslo</br></br>
-
-🔗 [martigso@github](https://martigso.github.io)</br> 🔗
+<!-- # Work
+&#10;📚 Postdoctoral Fellow</br> 🏢 @ University of Oslo</br></br>
+&#10;🔗 [martigso@github](https://martigso.github.io)</br> 🔗
 [martigso@uio](https://www.sv.uio.no/isv/english/people/aca/martigso/index.html)
+ -->
 
 # R-packages
 
